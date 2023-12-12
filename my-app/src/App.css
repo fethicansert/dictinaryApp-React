@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  color: #149CC9;
+  height: 100vh;
+  padding: 2rem 1rem 0 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.title{
+  font-size: 4rem;
+  font-family: 'Mina', sans-serif;
+  font-weight: 700;
+  
+}
+
+.search-label{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.input{
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1.8rem;
+  border-radius: 2px;
+  border: none;
+  text-indent: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.input::placeholder{
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.input:focus{
+  border: none;
+  outline: 2px solid #C95114;
+}
+
+.search-button{
+  background: #C95114;
+  width: 80%;
+  padding: .8rem 0;
+  margin-top: 1.7rem;
+  border: none;
+  color: white;
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.search-button:hover{
+  opacity: .9;
+}
+
+.search-button:active{
+  opacity: .75;
+}
+
+.search-results-container{
+  background: rgb(241, 241, 241);
+  min-height: 270px;
+  margin-top: 2rem;
+  color: rgb(23, 23, 23);
+  padding: .3rem .3rem;
+  text-align: start;
+}
+
+.App p{
+  margin-bottom: .5rem;
+}
