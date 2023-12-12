@@ -10,8 +10,10 @@
   text-align: center;
   color: #149CC9;
   height: 100vh;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   font-family: 'Poppins', sans-serif;
+  max-width: 400px;
+  margin:  0 auto;
 }
 
 
@@ -39,7 +41,9 @@
 }
 
 .input::placeholder{
+  font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
+  font-weight: 500;
   text-align: center;
   text-transform: capitalize;
 }
@@ -57,10 +61,11 @@
   border: none;
   color: white;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 2px;
+  letter-spacing: 1px;
 }
 
 .search-button:hover{
@@ -82,4 +87,21 @@
 
 .App p{
   margin-bottom: .5rem;
+}
+
+.error-message,
+.empty-input{
+  font-size: 1.2rem;
+  font-family: 'Mina', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.error-message{
+  color: #c91d14;
+}
+
+.empty-input{
+  color: #149CC9;
 }
